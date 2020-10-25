@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="33717e53-2f45-41d8-80bd-0eb6ca51b4ec">
+  <producedTypes>
+    <selectionType typeId="8d16659b-0638-409c-b893-7ff7045d7012" valueTypeId="3f289d01-6270-4960-b8bc-17d72cb132bb"/>
+    <listType typeId="6dea9bb3-5db4-45cd-b72f-02497d1af4fc" valueTypeId="6886a9c2-abda-4242-835b-969dd7b9d3e6"/>
+    <managerType typeId="72dca56e-b9f6-4226-a5c7-65ed8bc5d31d" valueTypeId="7e265937-b369-4bf2-bbf5-3ea5b27c5158"/>
+    <recordSetType typeId="874811b6-f847-4eda-917d-b0ac22268467" valueTypeId="330982f2-7dca-4e06-9085-88546d11a949"/>
+    <recordKeyType typeId="7d0a5399-205f-44ba-8925-b2380eac1d4e" valueTypeId="0926705f-3353-43d7-9735-84ec818d70e2"/>
+    <recordType typeId="5d498605-2fc1-469a-a586-0238c5749e5d" valueTypeId="83a0a07b-b309-46a7-b3aa-e0ac81fec10e"/>
+  </producedTypes>
+  <name>Композиция</name>
+  <synonym>
+    <key>bg</key>
+    <value>Композиция</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="43c0e007-b8e3-46ca-9cf0-fd346666f751">
+    <name>ДКП</name>
+    <synonym>
+      <key>bg</key>
+      <value>ДКП</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="64a36e09-534c-42a3-b223-ae52fdcd5a1e">
+    <name>Клас</name>
+    <synonym>
+      <key>bg</key>
+      <value>Клас</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>60</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="c8a4a8ef-0231-418a-9195-294bbe21a69a">
+    <name>Роля</name>
+    <synonym>
+      <key>bg</key>
+      <value>Роля</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="c5fe3197-b252-4e10-907f-b3f706149c89">
+    <name>Специализация</name>
+    <synonym>
+      <key>bg</key>
+      <value>Специализация</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2a78afff-29a8-4e45-9c26-7dc59fc2ce23">
+  <name>Конфигурация</name>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="5ee24bae-2f39-41e3-8d0c-af8792f50491"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="18daaf37-41e0-4ba1-b533-a3a806413ea4"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="0d622e69-dbf0-4874-8082-368c44dec59f"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="0fb23376-7f54-479e-8c78-799173d0d555"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="2bb0c225-dacf-4ba1-a5d4-69ca41196f82"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="bd865bb5-b3a2-429d-8b11-1a6cb944c472"/>
+  <configurationExtensionCompatibilityMode>8.3.10</configurationExtensionCompatibilityMode>
+  <defaultRunMode>OrdinaryApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <defaultLanguage>Language.Български</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.10</compatibilityMode>
+  <languages uuid="667be111-0537-42b8-be0e-82a504840bd4">
+    <name>Български</name>
+    <synonym>
+      <key>bg</key>
+      <value>Български</value>
+    </synonym>
+    <languageCode>bg</languageCode>
+  </languages>
+  <catalogs>Catalog.Catalog1</catalogs>
+  <catalogs>Catalog.Catalog2</catalogs>
+  <documents>Document.ТестДокумент</documents>
+  <reports>Report.MainReport</reports>
+  <accumulationRegisters>AccumulationRegister.Композиция</accumulationRegisters>
+</mdclass:Configuration>

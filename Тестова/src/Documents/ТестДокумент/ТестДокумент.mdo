@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8d67d561-df0e-489a-b3c0-1a237ac99013">
+  <producedTypes>
+    <objectType typeId="f9a641c7-594b-4ff5-85bd-f1bde6b4c430" valueTypeId="63dc2c83-8ba1-4ec1-82af-6be4d3e75ce4"/>
+    <refType typeId="58ebab92-bc55-43ff-a950-defb9dec1080" valueTypeId="bd121de4-b565-43fb-9758-ffec563aa181"/>
+    <selectionType typeId="c46116d0-646f-493f-b91f-14eda25164cc" valueTypeId="91f4ae26-62b2-41e2-abbd-35494bb81061"/>
+    <listType typeId="647c59b6-fba0-430b-b001-d8e30228f767" valueTypeId="d47b8f8d-ea21-42d8-9ef2-fda6d3567fb8"/>
+    <managerType typeId="94832f92-9000-4413-885e-70ae787e7780" valueTypeId="cd244740-f3d6-4ced-870e-325317b98b32"/>
+  </producedTypes>
+  <name>ТестДокумент</name>
+  <synonym>
+    <key>bg</key>
+    <value>Тест документ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ТестДокумент.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ТестДокумент.Form.DocumentForm</defaultObjectForm>
+  <registerRecords>AccumulationRegister.Композиция</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="078d11c2-4b09-4480-9ee4-ff9ad98ffd89">
+    <name>Клас</name>
+    <synonym>
+      <key>bg</key>
+      <value>Клас</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="2b021590-2f29-4e60-8c9a-d1a3959152e7">
+    <name>Роля</name>
+    <synonym>
+      <key>bg</key>
+      <value>Роля</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="199fbd24-185e-436d-abd1-158c30b7ca54">
+    <name>ДКПзаДен</name>
+    <synonym>
+      <key>bg</key>
+      <value>ДКПза ден</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="485164b4-bb0e-4a73-b898-69f88a0781ce">
+    <name>AttributeTestExt1</name>
+    <synonym>
+      <key>bg</key>
+      <value>Attribute test ext1</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="f3f961c3-23f8-438c-bc2e-b71663888ea6">
+    <name>DocumentForm</name>
+    <synonym>
+      <key>bg</key>
+      <value>Document form</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="bba7eebb-29b4-4d1e-b541-93087cd6c616">
+    <producedTypes>
+      <objectType typeId="ba8a2139-b02e-4e3f-bbf4-560617e0b26d" valueTypeId="6b438b51-946a-4ebb-bc47-b6e73e55e7cc"/>
+      <rowType typeId="e797428a-6783-4d5b-87df-f08b24e4531f" valueTypeId="fd35699a-0b1c-49b1-ae73-e8a12221b23f"/>
+    </producedTypes>
+    <name>Основна</name>
+    <synonym>
+      <key>bg</key>
+      <value>Основна</value>
+    </synonym>
+    <attributes uuid="fc7674e7-8280-44fd-a48f-b29edaf7ab5c">
+      <name>клас</name>
+      <synonym>
+        <key>bg</key>
+        <value>Клас</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3b477afa-7fd1-49a2-a37c-830caf245dd6">
+      <name>роля</name>
+      <synonym>
+        <key>bg</key>
+        <value>Роля</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e83728d6-2f95-4bb0-b428-3dc69cfcb526">
+      <name>Специализация</name>
+      <synonym>
+        <key>bg</key>
+        <value>Специализация</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="598faae9-a3be-48f3-ad6d-83530f9d87a4">
+      <name>име</name>
+      <synonym>
+        <key>bg</key>
+        <value>Име</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c3e0d4cd-039a-4f0d-9101-30d7f695f759">
+  <producedTypes>
+    <objectType typeId="138d6bb1-7d0d-4e17-bfb6-24a51f5beb1e" valueTypeId="6df693ba-095d-49eb-8e86-19d6d6c9e613"/>
+    <managerType typeId="89b2d30e-274e-4c05-9d7a-94112f7b4615" valueTypeId="df97b96d-b9f4-461a-aee5-d912a5eee257"/>
+  </producedTypes>
+  <name>MainReport</name>
+  <synonym>
+    <key>bg</key>
+    <value>Main report</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <attributes uuid="730e1ad2-52d5-45ac-b029-a7a21e6d656d">
+    <name>Attribute1</name>
+    <synonym>
+      <key>bg</key>
+      <value>Attribute1</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+</mdclass:Report>
